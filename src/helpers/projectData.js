@@ -19,6 +19,11 @@ const projectData = [
     screenshot: 'https://user-images.githubusercontent.com/20492875/30603287-45f53576-9d24-11e7-8e26-9bda0a81115a.png',
     link: 'https://github.com/dstock48/weathrly',
   },
+  {
+    name: 'Dashboard Design Comp',
+    screenshot: 'https://raw.githubusercontent.com/dstock48/dw-comp-challenge-3/master/screenshots/Final.jpg',
+    link: 'https://dstock48.github.io/dw-comp-challenge-3/',
+  },
 ]
 
 export default projectData;
