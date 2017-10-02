@@ -12,8 +12,9 @@ p {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 80px;
   font-family: 'Open Sans', sans-serif;
+  background-color: rgba(88, 121, 168, 1);
 }
 
 .section-heading {
