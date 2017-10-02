@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 20px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  box-shadow: 0 -5px 15px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3);
+}
+
+span {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.heart-icon {
+  height: 11px;
+  margin: 0 5px;
+}

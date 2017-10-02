@@ -1,0 +1,37 @@
+.about {
+  position: relative;
+  z-index: 10;
+  padding: 80px;
+  box-shadow: 0 -5px 15px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3);
+  text-align: center;
+}
+
+.avatar {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 1000px;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .about {
+    padding: 30px;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+}

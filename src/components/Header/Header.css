@@ -1,0 +1,125 @@
+header {
+  position: relative;
+  height: 100vh;
+  padding: 0 20px;
+  background-image: url('../../assets/hero-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 1px rgba(0,0,0,.6);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 60px;
+}
+
+nav a {
+  margin: 0 10px;
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: 200ms;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  padding: 4px 10px;
+  border-color: #fff;
+}
+
+.hero-text {
+  font-family: 'Carter One';
+}
+
+.name,
+.tagline {
+  margin: 0;
+}
+
+.name {
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: -20px;
+}
+
+.tagline {
+  font-size: 30px;
+}
+
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  bottom: 50px;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+
+
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+}
