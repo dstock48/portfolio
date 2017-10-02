@@ -9,7 +9,7 @@ const Contact = () => {
         <label htmlFor="name">Name</label>
         <input required id="name" type="text" name="name" placeholder="Morty Smith" />
 
-        <label htmlFor="email">Email Address</label>
+        <label htmlFor="email">Email</label>
         <input required id="email" type="email" name="_replyto" placeholder="example@email.com" />
 
         <label htmlFor="message">Message</label>
