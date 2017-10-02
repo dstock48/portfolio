@@ -11,9 +11,8 @@ const Header = () => {
       <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        {/* <a href="#">Contact</a> */}
+        <a href="#contact">Contact</a>
       </nav>
-      <div className='icon-scroll'></div>
     </header>
   )
 }
