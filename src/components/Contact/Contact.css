@@ -1,0 +1,14 @@
+.contact {
+  box-shadow: 0 -5px 15px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3);
+  background: #fff;
+  padding: 80px;
+  text-align: center;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
