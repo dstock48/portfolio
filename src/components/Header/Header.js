@@ -9,8 +9,8 @@ const Header = () => {
         <p className="tagline">Front-End Web Developer</p>
       </div>
       <nav>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
         {/* <a href="#">Contact</a> */}
       </nav>
       <div className='icon-scroll'></div>
