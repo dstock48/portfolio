@@ -24,6 +24,11 @@ const projectData = [
     screenshot: 'https://raw.githubusercontent.com/dstock48/dw-comp-challenge-3/master/screenshots/Final.jpg',
     link: 'https://dstock48.github.io/dw-comp-challenge-3/',
   },
+  {
+    name: 'Card Layout Comp',
+    screenshot: 'https://raw.githubusercontent.com/dstock48/dw-comp-challenge-2/master/screenshots/final.jpg',
+    link: 'https://dstock48.github.io/dw-comp-challenge-2/',
+  },
 ]
 
 export default projectData;
