@@ -17,6 +17,7 @@ const Contact = () => {
 
         <button type="submit">Send</button>
         <input type="hidden" name="_next" value="//dstock48.github.io/portfolio/" />
+        <input type="hidden" name="_subject" value="New message!" />
       </form>
     </section>
   )
