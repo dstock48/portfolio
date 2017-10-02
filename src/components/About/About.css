@@ -7,8 +7,29 @@
   background-color: #fff;
 }
 
+.about p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.about a {
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 200ms;
+}
+
+.about a:hover {
+  border-color: rgba(88, 121, 168, 1);
+}
+
+.about a:visited {
+  color: rgba(88, 121, 168, 1);
+}
+
 .avatar {
   display: inline-block;
+  float: left;
   width: 120px;
   height: 120px;
   margin: 10px;
@@ -17,11 +38,15 @@
 }
 
 .about-text {
-  display: flex;
-  align-items: center;
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
   text-align: left;
+}
+
+.about-text::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media (max-width: 800px) {

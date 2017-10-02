@@ -8,7 +8,8 @@ const About = () => {
       <h2 className="section-heading">{'< About >'}</h2>
       <div className="about-text">
         <img className="avatar" src={avatar} alt="Profile Pic"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod ea non occurrentia fingunt, vincunt Aristonem; In schola desinis. Quae contraria sunt his, malane? Duo Reges: constructio interrete. Beatus sibi videtur esse moriens. Videamus igitur sententias eorum, tum ad verba redeamus. Inde igitur, inquit, ordiendum est. Atque haec ita iustitiae propria sunt, ut sint virtutum reliquarum communia. Non enim, si omnia non sequebatur, idcirco non erat ortus illinc.</p>
+        <p>My name is David Weinstock and I'm a front-end web developer based out of Denver, Colorado.</p>
+        <p>I just recently finished a 7 month immersive software development program at the <a href="https://www.turing.io" target="_blank">Turing School of Software & Design.</a> This program covered the core languages of JavaScript, HTML, and CSS, along with many other libraries and tools such as jQuery, React, Redux, Node, Express, Webpack, and SASS. Turing puts a great deal of attention into testing code using libraries such as Jest, Enzyme, Mocha, and Chai. Projects are completed both individually and in groups, with a large focus on pair programming and cooperative git workflows.</p>
       </div>
     </section>
   )
