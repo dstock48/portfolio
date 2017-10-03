@@ -31,6 +31,19 @@ span {
   margin: 0 5px;
   text-shadow: 0px 1px 1px rgba(0,0,0,.6);
   filter: drop-shadow(0px 1px 1px rgba(0,0,0,.6));
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  85% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 800px) {
