@@ -6,7 +6,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   // color randomizer
-  const heartColor = '#000000'.replace(/0/g,function(){return (~~(Math.random()*16)).toString(16).toUpperCase();});
+  // const heartColor = '#000000'.replace(/0/g,function(){return (~~(Math.random()*16)).toString(16).toUpperCase();});
 
   const heart = <svg className="heart-icon" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'>
                   <path
