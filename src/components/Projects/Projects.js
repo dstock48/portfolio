@@ -13,7 +13,7 @@ const Projects = () => {
   return(
     <Element name="projects">
       <section id="projects" className="projects">
-        <h2 className="section-heading">{'< Projects >'}</h2>
+        <h2 className="section-heading">{'< Projects />'}</h2>
         <div className="project-cards">
           {projectCards}
         </div>

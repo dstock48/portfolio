@@ -8,7 +8,7 @@ const About = () => {
   return(
     <Element name="about">
       <section id="about" className="about">
-        <h2 className="section-heading">{'< About >'}</h2>
+        <h2 className="section-heading">{'< About />'}</h2>
         <div className="about-text">
           <img className="avatar" src={avatar} alt="Profile Pic"/>
           <p>My name is David Weinstock and I'm a front-end web developer based out of Denver, Colorado.</p>

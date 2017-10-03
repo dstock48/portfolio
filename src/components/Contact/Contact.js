@@ -8,7 +8,7 @@ const Contact = () => {
   return(
     <Element name="contact">
       <section id="contact" className="contact">
-        <h2 className="section-heading">{'< Contact >'}</h2>
+        <h2 className="section-heading">{'< Contact />'}</h2>
         <form className="email-form" method="POST" action="https://formspree.io/david.weinstock@me.com">
         <label htmlFor="name">Name</label>
         <input required id="name" type="text" name="name" placeholder="Morty Smith" />
