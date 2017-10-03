@@ -43,8 +43,12 @@
 }
 .email-form button:hover {
   cursor: pointer;
-  background-color: rgba(88, 121, 168, 1);
-  border: 2px solid rgba(88, 121, 168, 1);
+  background-color: rgb(30, 80, 150);
+  border: 2px solid rgb(30, 80, 150);
+  transform: scale(1.025);
+}
+.email-form button:active {
+  transform: scale(1.01);
 }
 
 .email-form label {
