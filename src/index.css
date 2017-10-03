@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:700');
 
 * {
   box-sizing: border-box;
@@ -19,4 +19,5 @@ body {
 .section-heading {
   font-size: 30px;
   margin-top: 0;
+  font-family: 'Ubuntu Mono', monospace;
 }
