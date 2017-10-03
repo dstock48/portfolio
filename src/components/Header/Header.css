@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-  margin: 20px auto 0;
+  margin: 10px auto 0;
   padding-top: 20px;
   border-top: 1px solid;
   width: 280px;
@@ -38,7 +38,7 @@ nav a:hover {
 }
 
 .hero-text {
-  font-family: 'Baloo';
+  font-family: 'Acme';
 }
 
 .name,
