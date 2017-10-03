@@ -79,7 +79,14 @@
 #linkedin:hover {
   transform: scale(1.1);
   cursor: pointer;
-  fill: rgba(57,101,164,1);
+}
+
+#github:hover {
+  fill: #6e5494;
+}
+
+#linkedin:hover {
+  fill: #0077b5;
 }
 
 @media (max-width: 800px) {
