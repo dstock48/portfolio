@@ -14,7 +14,7 @@
 }
 
 .email-form input {
-  border: 2px solid rgba(88, 121, 168, 1);
+  border: 2px solid rgba(57,101,164,1);
   padding: 5px;
   padding-left: 8px;
   margin-bottom: 20px;
@@ -23,7 +23,7 @@
 }
 
 .email-form textarea {
-  border: 2px solid rgba(88, 121, 168, 1);
+  border: 2px solid rgba(57,101,164,1);
   padding: 8px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -33,16 +33,16 @@
 .email-form button {
   height: 40px;
   border-radius: 4px;
-  background-color: rgba(88, 121, 168, 1);
-  border: 2px solid rgba(88, 121, 168, 1);
+  background-color: rgba(57,101,164,1);
+  border: 2px solid rgba(57,101,164,1);
   color: #fff;
   font-size: 18px;
   transition: 200ms;
 }
 .email-form button:hover {
   cursor: pointer;
-  background-color: rgba(57,101,164,1);
-  border: 2px solid rgba(57,101,164,1);
+  background-color: rgba(88, 121, 168, 1);
+  border: 2px solid rgba(88, 121, 168, 1);
 }
 
 .email-form label {
