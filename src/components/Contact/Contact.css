@@ -59,6 +59,28 @@
   font-weight: 600;
 }
 
+.web-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 0;
+  width: 150px;
+
+}
+
+#github,
+#linkedin {
+  height: 40px;
+  fill: #2f2f2f;
+  transition: 200ms;
+}
+
+#github:hover,
+#linkedin:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  fill: rgba(57,101,164,1);
+}
+
 @media (max-width: 800px) {
   .contact {
     padding: 30px;
