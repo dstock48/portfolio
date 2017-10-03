@@ -49,6 +49,7 @@
 }
 .email-form button:active {
   transform: scale(1.01);
+  outline: none;
 }
 
 .email-form label {
@@ -84,5 +85,9 @@
 @media (max-width: 800px) {
   .contact {
     padding: 30px;
+  }
+
+  .web-links {
+    margin-top: 30px;
   }
 }
