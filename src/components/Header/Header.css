@@ -58,7 +58,44 @@ nav a:hover {
   font-weight: 600;
 }
 
+.thank-you {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: #c5ebc3;
+  color: #3c871e;
+  font-size: 20px;
+  text-shadow: 0 0 0;
+  opacity: 1;
+  animation: slideIn 3s forwards;
+}
 
+#mail-icon {
+  fill: #3c871e;
+  height: 35px;
+  margin-right: 5px;
+}
+
+@keyframes slideIn {
+  0% {
+    top: -60px;
+  }
+  30% {
+    top: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
 
 @media (max-width: 600px) {
   nav {
