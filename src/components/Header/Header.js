@@ -18,7 +18,7 @@ const Header = () => {
           <path className='st0' d='M297.6,270.8l108.5,107.9c-3.3,1.5-7,2.3-10.9,2.3H116.8c-3.9,0-7.6-0.8-10.9-2.3l108.5-107.9l22.5,22.3 c5.3,5.2,12.2,7.9,19.1,7.9s13.8-2.6,19.1-7.9L297.6,270.8z'/>
           <path className='st0' d='M422.2,157.9v196.2c0,4.2-1,8.2-2.7,11.7L310.8,257.7l109.8-109.2C421.6,151.5,422.2,154.6,422.2,157.9z'/>
         </svg>
-        <p>Thanks for your message!</p>
+        <p><span>Sent:</span> thanks for your message!</p>
       </div>}
       <div className="hero-text">
         <h1 className="name">David Weinstock</h1>

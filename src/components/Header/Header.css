@@ -59,39 +59,52 @@ nav a:hover {
 
 .thank-you {
   position: fixed;
-  top: 0;
+  z-index: 1000;
   left: 0;
   right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60px;
-  background-color: #c5ebc3;
-  color: #3c871e;
-  font-size: 20px;
+  height: 70px;
+  background-color: #7AD69C;
+  color: #01210d;
+  font-size: 22px;
+  font-weight: 300;
   text-shadow: 0 0 0;
-  opacity: 1;
-  animation: slideIn 3s forwards;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  animation: slideIn 3.5s forwards;
+}
+
+.thank-you span {
+  font-weight: 600;
 }
 
 #mail-icon {
-  fill: #3c871e;
-  height: 35px;
-  margin-right: 5px;
+  fill: #01210d;
+  height: 34px;
+  margin-right: 3px;
+  margin-bottom: -1px;
 }
 
 @keyframes slideIn {
   0% {
-    top: -60px;
+    opacity: 0;
+    top: -70px;
   }
-  30% {
+  10% {
+    opacity: 1;
+    top: -70px;
+  }
+  25% {
     top: 0;
   }
   80% {
     opacity: 1;
+    top: 0;
   }
   100% {
     display: none;
+    top: -60px;
     opacity: 0;
   }
 }
