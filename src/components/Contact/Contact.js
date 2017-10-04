@@ -28,7 +28,7 @@ const Contact = () => {
           <input required id="name" type="text" name="name" placeholder="Morty Smith"/>
 
           <label htmlFor="email">Email</label>
-          <input required id="email" type="email" name="_replyto" placeholder="example@email.com"/>
+          <input required id="email" type="email" name="email" placeholder="example@email.com"/>
 
           <label htmlFor="message">Message</label>
           <textarea required id="message" name="message" placeholder="Type your message here..."></textarea>
