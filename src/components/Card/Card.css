@@ -13,13 +13,19 @@
 }
 
 .project-card:hover {
-  cursor: pointer;
   transform: scale(1.03);
   box-shadow: 0 5px 16px #5b6e8e;
 }
 
 .card-text {
   padding: 14px;
+  font-weight: 300;
+}
+
+.links {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5C7CA8;
 }
 
 .project-name {
@@ -30,7 +36,6 @@
 
 .description {
   font-size: 14px;
-  font-weight: 300;
   margin: 10px 0;
 }
 

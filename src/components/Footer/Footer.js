@@ -16,7 +16,7 @@ const Footer = () => {
 
   return(
     <footer>
-      <span>Made with {heart} by David Weinstock</span>
+      <span className="made-by">Made with {heart} by David Weinstock</span>
       <span>Copyright &#169; {year}</span>
     </footer>
   )

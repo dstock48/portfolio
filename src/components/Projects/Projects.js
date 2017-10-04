@@ -6,7 +6,7 @@ import './Projects.css';
 const Element = Scroll.Element;
 
 
-const projectCards = projectData.map((proj, i) => <Card key={`Project-${i}`} name={proj.name} image={proj.screenshot} link={proj.link} desc={proj.description}/>)
+const projectCards = projectData.map((proj, i) => <Card key={`Project-${i}`} name={proj.name} image={proj.screenshot} repoLink={proj.repoLink} liveLink={proj.liveLink} desc={proj.description}/>)
 
 const Projects = () => {
 
