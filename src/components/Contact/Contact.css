@@ -1,7 +1,12 @@
 .contact {
-  box-shadow: 0 -5px 15px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3);
+  box-shadow: 0 -5px 10px #7d99bd, 0 7px 10px #536b8b;
   background: #fff;
   text-align: center;
+}
+
+.contact-msg {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .email-form {
@@ -13,7 +18,7 @@
 }
 
 .email-form input {
-  border: 2px solid rgba(57,101,164,1);
+  border: 1px solid #5C7CA8;
   border-radius: 4px;
   padding: 5px;
   padding-left: 8px;
@@ -23,27 +28,33 @@
 }
 
 .email-form textarea {
-  border: 2px solid rgba(57,101,164,1);
+  border: 1px solid #5C7CA8;
   border-radius: 4px;
   padding: 8px;
   margin-bottom: 20px;
   font-size: 14px;
   height: 200px;
+  resize: vertical;
+}
+
+.email-form input::placeholder,
+.email-form textarea::placeholder {
+  color: #5C7CA8;
 }
 
 .email-form button {
   height: 40px;
   border-radius: 4px;
-  background-color: rgba(57,101,164,1);
-  border: 2px solid rgba(57,101,164,1);
+  background-color: #5C7CA8;
+  border: 2px solid #5C7CA8;
   color: #fff;
   font-size: 18px;
   transition: 200ms;
 }
 .email-form button:hover {
   cursor: pointer;
-  background-color: rgb(30, 80, 150);
-  border: 2px solid rgb(30, 80, 150);
+  background-color: #4576ba;
+  border: 2px solid #4576ba;
   transform: scale(1.025);
 }
 .email-form button:active {
@@ -62,7 +73,7 @@
 .web-links {
   display: flex;
   justify-content: space-between;
-  margin: 60px auto 0;
+  margin: 20px auto;
   width: 150px;
 
 }
@@ -70,7 +81,7 @@
 #github,
 #linkedin {
   height: 40px;
-  fill: #2f2f2f;
+  fill: #5b7ca8;
   transition: 200ms;
 }
 

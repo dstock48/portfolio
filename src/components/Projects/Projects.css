@@ -1,8 +1,14 @@
 .projects {
-  background-color: rgba(57,101,164,1);
+  background-color: rgba(143, 172, 211, 0.95);
+  background-image: url('../../assets/hero-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
   color: #fff;
   text-align: center;
-  text-shadow: 0px 2px 1px rgba(0,0,0,.4);
+  text-shadow: 0px 2px 3px #556b8e;
 }
 
 .project-cards {

@@ -1,7 +1,7 @@
 .about {
   position: relative;
   z-index: 10;
-  box-shadow: 0 -5px 15px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3);
+  box-shadow: 0 5px 15px #718caf;
   text-align: center;
   background-color: #fff;
 }
@@ -15,16 +15,16 @@
   font-weight: 600;
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  color: rgba(88, 121, 168, 1);
+  color: #5C7CA8;
   transition: 200ms;
 }
 
 .about a:hover {
-  border-color: rgba(88, 121, 168, 1);
+  border-color: #5C7CA8;
 }
 
 .about a:visited {
-  color: rgba(88, 121, 168, 1);
+  /*color: #415c82;*/
 }
 
 .avatar {
