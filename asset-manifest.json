@@ -1,8 +1,14 @@
 {
-  "main.css": "static/css/main.dd20fe54.css",
-  "main.css.map": "static/css/main.dd20fe54.css.map",
-  "main.js": "static/js/main.b38f69a1.js",
-  "main.js.map": "static/js/main.b38f69a1.js.map",
+  "main.css": "static/css/main.e791ff96.css",
+  "main.css.map": "static/css/main.e791ff96.css.map",
+  "main.js": "static/js/main.16abd63b.js",
+  "main.js.map": "static/js/main.16abd63b.js.map",
   "static/media/avatar.jpg": "static/media/avatar.2d0ab006.jpg",
-  "static/media/hero-image.jpg": "static/media/hero-image.11ebc3ab.jpg"
+  "static/media/clubreads.png": "static/media/clubreads.be40f66c.png",
+  "static/media/comp2.jpg": "static/media/comp2.5c187f86.jpg",
+  "static/media/comp3.jpg": "static/media/comp3.446ae9be.jpg",
+  "static/media/hero-image.jpg": "static/media/hero-image.11ebc3ab.jpg",
+  "static/media/movietracker.jpg": "static/media/movietracker.b7eb555d.jpg",
+  "static/media/weathrly.png": "static/media/weathrly.dc039553.png",
+  "static/media/whosplaying.png": "static/media/whosplaying.3976fb49.png"
 }
