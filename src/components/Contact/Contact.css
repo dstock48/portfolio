@@ -75,7 +75,10 @@
   justify-content: space-between;
   margin: 20px auto;
   width: 150px;
+}
 
+.web-links a {
+  border: none;
 }
 
 #github,
