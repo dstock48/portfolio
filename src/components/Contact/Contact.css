@@ -19,7 +19,7 @@
 
 .email-form input {
   border: 1px solid #5C7CA8;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 5px;
   padding-left: 8px;
   margin-bottom: 20px;
@@ -29,7 +29,7 @@
 
 .email-form textarea {
   border: 1px solid #5C7CA8;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 8px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -44,7 +44,7 @@
 
 .email-form button {
   height: 40px;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: #5C7CA8;
   border: 2px solid #5C7CA8;
   color: #fff;
