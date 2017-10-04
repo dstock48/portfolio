@@ -34,24 +34,25 @@
   margin: 10px 0;
 }
 
-.project-screenshot {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 300px;
-  transition: 200ms;
-  background-color: rgb(94, 124, 165);
-  background-blend-mode: luminosity;
-  opacity: 0.7;
+.card-image {
+  position: relative;
+  margin-top: auto;
 }
 
-.project-card:hover .project-screenshot {
-  background-color: transparent;
-  opacity: 1;
+.color-overlay {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #8caad2;
+  mix-blend-mode: hard-light;
+  opacity: .5;
+  transition: 200ms;
 }
 
 .screenshot {
-  margin-top: auto;
   display: block;
   width: 100%;
   filter: grayscale(1);
@@ -61,18 +62,23 @@
   filter: grayscale(0);
 }
 
-@media (max-width: 800px) {
-  .project-screenshot {
-    height: 400px;
-  }
+.project-card:hover .color-overlay {
+  opacity: 0;
 }
 
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .project-screenshot {
-      filter: rgba(0, 0, 0, 1);
+    .color-overlay {
+      opacity: 0;
+    }
+    .project-card:hover {
+      transform: scale(1);
+      box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+    }
+    .screenshot {
+      filter: grayscale(0);
     }
 }
 
@@ -80,7 +86,14 @@
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    .project-screenshot {
+    .color-overlay {
+      opacity: 0;
+    }
+    .project-card:hover {
+      transform: scale(1);
+      box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+    }
+    .screenshot {
       filter: grayscale(0);
     }
 }

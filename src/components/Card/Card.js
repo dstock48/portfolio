@@ -14,7 +14,10 @@ const Card = (props) => {
         <p className="description">{props.desc}</p>
       </div>
       {/* <div style={style} className="project-screenshot"></div> */}
-      <img className="screenshot" src={props.image} alt="screenshot"/>
+      <div className="card-image">
+        <div className="color-overlay"></div>
+        <img className="screenshot" src={props.image} alt="screenshot"/>
+      </div>
     </a>
   )
 }
