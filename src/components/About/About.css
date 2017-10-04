@@ -13,18 +13,6 @@
 
 .about a {
   font-weight: 400;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  color: #5C7CA8;
-  transition: 200ms;
-}
-
-.about a:hover {
-  border-color: #5C7CA8;
-}
-
-.about a:visited {
-  /*color: #415c82;*/
 }
 
 .about-content {
