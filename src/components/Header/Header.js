@@ -8,6 +8,8 @@ const Header = () => {
 
   const scrollDuration = 600
 
+  console.log(window.location);
+
   return(
     <header>
       <div className="hero-text">
