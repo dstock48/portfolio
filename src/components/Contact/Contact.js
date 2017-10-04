@@ -34,7 +34,7 @@ const Contact = () => {
           <textarea required id="message" name="message" placeholder="Type your message here..."></textarea>
 
           <button type="submit">Send</button>
-          <input type="hidden" name="_next" value="//dstock48.github.io/portfolio/"/>
+          <input type="hidden" name="_next" value="//dstock48.github.io/portfolio#thanks"/>
           <input type="hidden" name="_subject" value="New message!"/>
         </form>
       </section>
