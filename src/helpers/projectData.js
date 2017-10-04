@@ -36,14 +36,14 @@ const projectData = [
     name: 'Dashboard Design Comp',
     screenshot: comp3,
     liveLink: 'https://dstock48.github.io/dw-comp-challenge-3/',
-    repoLink: 'https://github.com/dstock48/dw-comp-challenge-2',
+    repoLink: 'https://github.com/dstock48/dw-comp-challenge-3',
     description: 'A static design challenge using flexbox, absolute & relative positioning, and media queries for full responsiveness.',
   },
   {
     name: 'Card Layout Comp',
     screenshot: comp2,
     liveLink: 'https://dstock48.github.io/dw-comp-challenge-2/',
-    repoLink: 'https://github.com/dstock48/dw-comp-challenge-3',
+    repoLink: 'https://github.com/dstock48/dw-comp-challenge-2',
     description: 'A static design challenge using flexbox to create a grid interface of cards with hover effects and full responsiveness.',
   },
 ]
