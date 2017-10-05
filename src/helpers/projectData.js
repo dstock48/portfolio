@@ -42,7 +42,7 @@ const projectData = [
     altText:'Dashboard static comp screenshot',
     liveLink: 'https://dstock48.github.io/dw-comp-challenge-3/',
     repoLink: 'https://github.com/dstock48/dw-comp-challenge-3',
-    description: 'A challenge to bring a given dashboard design to life with HTML & CSS using flexbox, absolute & relative positioning, and media queries for full responsiveness.',
+    description: 'A challenge to bring a given dashboard design to life with HTML & CSS using flexbox, positioning, and media queries for full responsiveness.',
   },
   {
     name: 'Card Layout Comp',
