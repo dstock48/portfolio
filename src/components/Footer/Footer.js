@@ -16,7 +16,7 @@ const Footer = () => {
     <footer>
       <span className="made-by">Made with {heart} by David Weinstock</span>
       <span>
-        <a href="https://github.com/dstock48">GitHub</a> • <a href="https://www.linkedin.com/in/davidhweinstock/">LinkedIn</a> • <a href="https://www.dropbox.com/s/eeexdpnxqter31z/David_Weinstock_Resume.pdf?dl=0">Resume</a>
+        <a rel="noopener noreferrer" target="_blank" href="https://github.com/dstock48">GitHub</a> • <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/davidhweinstock/">LinkedIn</a> • <a rel="noopener noreferrer" target="_blank" href="https://www.dropbox.com/s/eeexdpnxqter31z/David_Weinstock_Resume.pdf?dl=0">Resume</a>
       </span>
     </footer>
   )
