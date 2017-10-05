@@ -2,8 +2,6 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  const date = new Date();
-  const year = date.getFullYear();
 
   // color randomizer
   // const heartColor = '#000000'.replace(/0/g,function(){return (~~(Math.random()*16)).toString(16).toUpperCase();});
@@ -17,7 +15,9 @@ const Footer = () => {
   return(
     <footer>
       <span className="made-by">Made with {heart} by David Weinstock</span>
-      <span>Copyright &#169; {year}</span>
+      <span>
+        <a href="https://github.com/dstock48">GitHub</a> • <a href="https://www.linkedin.com/in/davidhweinstock/">LinkedIn</a> • <a href="https://www.dropbox.com/s/eeexdpnxqter31z/David_Weinstock_Resume.pdf?dl=0">Resume</a>
+      </span>
     </footer>
   )
 }
