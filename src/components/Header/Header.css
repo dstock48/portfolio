@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-  margin: 10px auto 0;
+  margin: 15px auto 0;
   padding-top: 20px;
   border-top: 1px solid;
   width: 280px;
@@ -84,6 +84,19 @@ nav a:hover {
   height: 34px;
   margin-right: 3px;
   margin-bottom: -1px;
+}
+
+.web-links.header {
+  margin: 8px auto 5px;
+  width: 150px;
+}
+
+.web-links.header #github,
+.web-links.header #linkedin,
+.web-links.header #resume {
+  height: 30px;
+  fill: #fff;
+  filter: drop-shadow(0px 2px 3px #556b8e);
 }
 
 @keyframes slideIn {

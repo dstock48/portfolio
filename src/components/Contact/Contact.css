@@ -81,15 +81,13 @@
   border: none;
 }
 
-#github,
-#linkedin {
+.web-links svg {
   height: 40px;
   fill: #5b7ca8;
   transition: 200ms;
 }
 
-#github:hover,
-#linkedin:hover {
+.web-links svg:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
