@@ -1,14 +1,13 @@
 {
   "main.css": "static/css/main.36f4aca6.css",
   "main.css.map": "static/css/main.36f4aca6.css.map",
-  "main.js": "static/js/main.b5ce6d67.js",
-  "main.js.map": "static/js/main.b5ce6d67.js.map",
-  "static/media/avatar.jpg": "static/media/avatar.2d0ab006.jpg",
-  "static/media/clubreads.png": "static/media/clubreads.be40f66c.png",
-  "static/media/comp2.jpg": "static/media/comp2.5c187f86.jpg",
-  "static/media/comp3.jpg": "static/media/comp3.446ae9be.jpg",
+  "main.js": "static/js/main.a59f9936.js",
+  "main.js.map": "static/js/main.a59f9936.js.map",
+  "static/media/clubreads.jpg": "static/media/clubreads.b8c3e1d2.jpg",
+  "static/media/comp2.jpg": "static/media/comp2.0651a89d.jpg",
+  "static/media/comp3.jpg": "static/media/comp3.3e235d97.jpg",
   "static/media/hero-image.jpg": "static/media/hero-image.11ebc3ab.jpg",
-  "static/media/movietracker.jpg": "static/media/movietracker.b7eb555d.jpg",
-  "static/media/weathrly.png": "static/media/weathrly.dc039553.png",
-  "static/media/whosplaying.png": "static/media/whosplaying.3976fb49.png"
+  "static/media/movietracker.jpg": "static/media/movietracker.3566256a.jpg",
+  "static/media/weathrly.jpg": "static/media/weathrly.8042bf9c.jpg",
+  "static/media/whosplaying.jpg": "static/media/whosplaying.6ca04ed3.jpg"
 }
