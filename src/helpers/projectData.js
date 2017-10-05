@@ -1,7 +1,7 @@
-import whosPlaying from '../assets/screenshots/whosplaying.png';
-import clubReads from '../assets/screenshots/clubreads.png';
+import whosPlaying from '../assets/screenshots/whosplaying.jpg';
+import clubReads from '../assets/screenshots/clubreads.jpg';
 import movieTracker from '../assets/screenshots/movietracker.jpg';
-import weathrly from '../assets/screenshots/weathrly.png';
+import weathrly from '../assets/screenshots/weathrly.jpg';
 import comp2 from '../assets/screenshots/comp2.jpg';
 import comp3 from '../assets/screenshots/comp3.jpg';
 
