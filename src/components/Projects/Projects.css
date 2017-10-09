@@ -11,6 +11,10 @@
   text-shadow: 0px 2px 1px #556b8e;
 }
 
+.projects strong {
+  font-weight: 600;
+}
+
 .project-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
