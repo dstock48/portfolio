@@ -9,7 +9,7 @@ const Contact = () => {
     <Element name="contact">
       <section id="contact" className="contact">
         <h2 className="section-heading">{'< Contact />'}</h2>
-        <p className="contact-msg">Find me on GitHub & LinkedIn</p>
+        <p>Find me on GitHub & LinkedIn</p>
         <div className="web-links">
           <a href="https://github.com/dstock48" rel="noopener noreferrer" target="_blank">
             <svg id='github' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 92 92'>
@@ -22,7 +22,10 @@ const Contact = () => {
             </svg>
           </a>
         </div>
-        <p className="contact-msg">or send me an email</p>
+        <div className="contact-msg">
+          <p>Send me an email at <a href="mailto:david.weinstock@me.com">david.weinstock@me.com</a></p>
+          <p>or use the form below:</p>
+        </div>
         <form className="email-form" method="POST" action="https://formspree.io/david.weinstock@me.com">
           <label htmlFor="name">Name</label>
           <input required id="name" type="text" name="name" placeholder="Morty Smith"/>

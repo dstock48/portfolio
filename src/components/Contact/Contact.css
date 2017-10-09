@@ -2,11 +2,15 @@
   /*box-shadow: 0 -5px 10px #7d99bd, 0 7px 10px #536b8b;*/
   background: #fff;
   text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .contact-msg {
-  font-size: 18px;
-  font-weight: 400;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 18px;
 }
 
 .email-form {
