@@ -21,7 +21,6 @@ const Card = (props) => {
         </div>
         <p className="description">{props.desc}</p>
       </div>
-      {/* <div style={style} className="project-screenshot"></div> */}
     </div>
   )
 }
