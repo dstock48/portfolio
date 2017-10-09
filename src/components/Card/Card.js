@@ -19,7 +19,7 @@ const Card = (props) => {
           {props.repoLink && <a href={props.repoLink} target="_blank">View on GitHub</a>}
           {props.liveLink && <span> • <a href={props.liveLink} target="_blank">View Live</a></span>}
         </div>
-        <p className="description">{props.desc}</p>
+        <p className="description" dangerouslySetInnerHTML={{__html: props.desc}}></p>
       </div>
     </div>
   )
