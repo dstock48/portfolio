@@ -3,10 +3,6 @@ import './Card.css';
 
 const Card = (props) => {
 
-  // const style = {
-  //   backgroundImage: `url(${props.image})`
-  // }
-  console.log(process.env);
   const screenshot = process.env.NODE_ENV === 'production' ? `https://dstock48.github.io${props.image}` : props.image
 
   return(
