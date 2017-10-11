@@ -6,7 +6,7 @@ const Card = (props) => {
   // const style = {
   //   backgroundImage: `url(${props.image})`
   // }
-  console.log(process.env.PUBLIC_URL);
+  console.log(process.env);
 
   return(
     <div className="project-card">
