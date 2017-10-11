@@ -11,7 +11,7 @@ const Card = (props) => {
     <div className="project-card">
       <div className="card-image">
         <div className="color-overlay"></div>
-        <img className="screenshot" src={props.image} alt={props.altText}/>
+        <img className="screenshot" src={process.env.PUBLIC_URL + props.image} alt={props.altText}/>
       </div>
       <div className="card-text">
         <h3 className="project-name">{props.name}</h3>
