@@ -20,7 +20,7 @@ const projectData = [
     altText:'Club Reads Web Application | Web-app for book clubs - built in React.',
     repoLink: 'https://github.com/lindsaywparker/club-reads-frontend',
     liveLink: 'https://club-reads.herokuapp.com/',
-    description: 'A web app built in <strong>React.js</strong> for book club members to suggest & vote on books to read.',
+    description: 'A web app built in <strong>React.js</strong> with a <strong>Node.js</strong> backend, for book club members to suggest & vote on books to read.',
   },
   {
     name: 'Movie Tracker',
