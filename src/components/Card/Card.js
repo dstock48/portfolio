@@ -7,12 +7,13 @@ const Card = (props) => {
   //   backgroundImage: `url(${props.image})`
   // }
   console.log(process.env);
+  const screenshot = process.env.NODE_ENV === 'production' ? `https://dstock48.github.io${props.image}` : props.image
 
   return(
     <div className="project-card">
       <div className="card-image">
         <div className="color-overlay"></div>
-        <img className="screenshot" src={props.image} alt={props.altText}/>
+        <img className="screenshot" src={screenshot} alt={props.altText}/>
       </div>
       <div className="card-text">
         <h3 className="project-name">{props.name}</h3>
