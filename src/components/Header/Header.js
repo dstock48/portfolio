@@ -22,7 +22,7 @@ const Header = () => {
       </div>}
       <div className="hero-text">
         <h1 className="name">David Weinstock</h1>
-        <p className="tagline">Front-End Web Developer</p>
+        <p className="tagline">Frontend Web Developer</p>
         <div className="web-links header">
           <a href="https://github.com/dstock48" rel="noopener noreferrer" target="_blank">
             <svg id='github' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 92 92'>
