@@ -34,6 +34,7 @@ const projectData = [
     screenshot: weathrly,
     altText:'Weathrly Web Application | Web-app using Weather Underground API to provide weather forecasts and current conditions - built in React.',
     repoLink: 'https://github.com/dstock48/weathrly',
+    liveLink: 'https://dstock48.github.io/weathrly/',
     description: 'A weather app built in <strong>React.js</strong> using the Weather Underground API. Provides an immediate 7 hr and 10 day forecast, with a 24 hr forcast for a selected day.',
   },
   {
